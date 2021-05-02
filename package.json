@@ -1,11 +1,8 @@
 {
-  "name": "devops",
+  "name": "githubactions",
   "version": "1.0.0",
-  "description": "",
+  "description": "github actions",
   "main": "app.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,9 +17,6 @@
   },
   "homepage": "https://github.com/amitca71/githubactions#readme",
   "dependencies": {
-    "chai": "^4.3.4",
     "mocha": "^8.3.2"
   }
-
-
 }
