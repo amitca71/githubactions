@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/amitca71/githubactions/issues"
   },
-  "homepage": "https://github.com/amitca71/githubactions#readme"
+  "homepage": "https://github.com/amitca71/githubactions#readme",
+  "dependencies": {
+    "mocha": "^8.3.2"
+  }
+
 }
