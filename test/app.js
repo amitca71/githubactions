@@ -2,13 +2,11 @@ var expect    = require("chai").expect;
 var request = require("request");
 var converter = require("../app.js");
 describe("check returns of function", function() {
-  describe("check empty uri", function() {
     var url = "http://localhost:3000/";
     it("returns status 200", function() {
       request(url, function(error, response, body) {
         expect(response.statusCode).to.equal(200);
       });
     });
-   });
  }); 
 
