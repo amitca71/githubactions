@@ -4,7 +4,7 @@
   "description": "github actions",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/amitca71/githubactions#readme",
   "dependencies": {
-    "mocha": "^8.3.2"
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "request": "^2.88.2"
   }
 }
