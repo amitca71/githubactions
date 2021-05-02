@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/amitca71/githubactions#readme",
   "dependencies": {
+    "chai": "^4.3.4",
     "mocha": "^8.3.2"
   }
+
 
 }
