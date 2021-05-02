@@ -4,7 +4,7 @@
   "description": "github actions",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --reporter spec --exit"
+    "test": "mocha --exit"
   },
   "repository": {
     "type": "git",
