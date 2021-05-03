@@ -4,7 +4,7 @@
   "description": "github actions",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --require async"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/amitca71/githubactions#readme",
   "dependencies": {
+    "async": "^3.2.0",
     "chai": "^4.3.4",
     "express": "^4.17.1",
     "mocha": "^8.3.2",
