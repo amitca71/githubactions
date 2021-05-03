@@ -3,7 +3,9 @@ app creation:
 - npm install
 - npm install --save mocha chai request
 - npm test
-
+test results:
+- https://github.com/amitca71/githubactions/actions
+- an email is sent by github action upon build failure
 deployment prerequisite:
 - account on heroku + app + api key
 - github secrets:
@@ -40,3 +42,4 @@ docker improvement:
       git tag -a v1.0.2
       git push origin v1.0.2)
 - known issue: the image that is published to dockerhub is redundant for deployment, and can be removed from the pipeline
+
