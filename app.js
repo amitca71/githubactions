@@ -1,7 +1,7 @@
 const http = require('http');
 const url = require('url');
 const hostname = '0.0.0.0';
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 const server = http.createServer((req, res) => {
   const queryObject = url.parse(req.url,true).query;
