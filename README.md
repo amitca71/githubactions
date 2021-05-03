@@ -14,6 +14,10 @@ production deploymennt:
 - script (linux only- not tested):deploy_latest_docker_to_production.sh
 - command line: heroku container:release -a hello-amit web
 
+usage examples:
+- https://hello-amit.herokuapp.com/
+- https://hello-amit.herokuapp.com/?name=amit
+
 
 app server improvement:
 separate the start and serve app
