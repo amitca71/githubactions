@@ -24,4 +24,6 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+  build_docker:
+    needs: build
     - run:  docker  build . -t amitca71/node-web-app
