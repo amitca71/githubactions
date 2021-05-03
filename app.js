@@ -4,16 +4,16 @@ const hostname = '0.0.0.0';
 const port = 3001;
 
 const server = http.createServer((req, res) => {
-  const name = url.parse(req.url,true).pathname ;
-  console.log(name);
+  const queryObject = url.parse(req.url,true).query;
+  console.log("name" in queryObject);
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-
+  
   response='Hello ';
-  if (name == '/'){
-      response=response.concat('world');
+  if ("name" in queryObject){
+      response=response.concat(queryObject.name);
   }else{
-      response=response.concat(name.substring(1));
+      response=response.concat('world');
   }
 
   res.end(response);
